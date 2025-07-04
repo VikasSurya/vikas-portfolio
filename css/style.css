@@ -395,4 +395,15 @@ body {
 .custom-navbar {
   background-color: #3f396d;
 }
+.experience {
+  background-color: #eaeafd; /* You can change this shade */
+}
+/* Light backgrounds for key sections */
 
+
+
+
+
+.portfolio {
+  background-color: #e6f0ff; /* Light sky blue */
+}
