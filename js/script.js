@@ -26,16 +26,3 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
-
-// back to top button functionality
-const mybutton = document.getElementById("btn-back-to-top");
-window.onscroll = function () {
-  if (window.scrollY > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-};
-mybutton.addEventListener("click", () => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-});

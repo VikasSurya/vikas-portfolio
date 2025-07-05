@@ -8,7 +8,7 @@ body{
     border: none;
     background-color: #fff;
     font-size: 1.5rem;
-    color: #fca61f;
+    color: #1f5afc;
 }
 /* styling navbar links  */
 .navbar-nav a{
@@ -16,7 +16,7 @@ body{
     position: relative;
 }
 .navbar-nav a:hover{
-    color: #fca61f;
+    color: #1f5afc;
 }
 .navbar-nav a:after {    
     background: none repeat scroll 0 0 transparent;
@@ -27,7 +27,7 @@ body{
     left: 50%;
     top: 35px;
     position: absolute;
-    background: #fca61f;
+    background: #1f5afc;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
@@ -38,7 +38,7 @@ body{
   /* styling contact btn  */
 .c-btn{
     border: none;
-    background: #fca61f;
+    background: #1f5afc;
     color: #fff;
     font-size: 1.2rem;
 }
@@ -54,7 +54,7 @@ body{
 }
 
 .c-orange{
-    color: #6f34fe;
+    color: #1f5afc;
     font-weight: 700;
     font-size: 4rem;
 }
@@ -64,7 +64,7 @@ body{
     font-size: 1.2rem;
 }
 .h-btn:hover{
-    background: #6f34fe;
+    background: #1f5afc;
     color: #fff;
     transform: translateY(-20px);
     transition-duration: 1s;
@@ -72,7 +72,7 @@ body{
 .link{
     text-decoration: none;
     font-size: 1.2rem;
-    color: #fca61f;
+    color: #1f5afc;
     position: relative;
 }
 .link::after{
@@ -84,12 +84,12 @@ body{
     bottom: 0;
     left: 0;
     top: 20px;
-    background-color: #6f34fe;
+    background-color: #1f5afc;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
 .link:hover{
-    color: #6f34fe;
+    color: #1f5afc;
 }
 .link:hover::after{
     transform: scaleX(1);
@@ -120,20 +120,20 @@ body{
 }
 .heading h3{
     margin-top: 0.5rem;
-    color: #6f34fe;
+    color: #1f5afc;
     font-size: 2.5rem;
     font-weight: 700;
 }
 .expertise h4{
-    color: #3f396d;
+    color: #1f5afc;
     font-weight: 700;
 }
 .expertise a{
     text-decoration: none;
-    color: #fca61f;
+    color: #1f5afc;
 }
 .expertise a:hover{
-    color: #6f34fe;
+    color: #1f5afc;
 }
 .expertise .service-card{
     text-align: center;
@@ -160,7 +160,7 @@ body{
     height: 130px;
     width: 130px;
     border-radius: 50%;
-    background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+    background: conic-gradient(#1f5afc 3.6deg, #ededed 0deg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -179,16 +179,16 @@ body{
     font-weight: 600;
 }
 .html-progress{
-    color: #fca61f;
+    color: #1f5afc;
 }
 .javascript-progress{
-    color: #6f34fe;
+    color: #1f5afc;
 }
 .php-progress{
     color: #20c997;
 }
 .reactjs-progress{
-    color: #3f396d;
+    color: #1f5afc;
 }
 .text{
     font-size: 1.2rem;
@@ -213,7 +213,7 @@ body{
   margin: 0 25px;
 }
 #myBtnContainer button:hover{
-    color: #fca61f;
+    color: #1f5afc;
 }
 
 #myBtnContainer button:focus{
@@ -228,92 +228,15 @@ body{
 }
 
 /* testimonial section starts */
-.testimonial img:hover{
-    transform: scale(1.2,1.2);
-    transition-duration: 1s;
-}
-.testimonial h4{
-    color: #3f396d;
-}
-.testimonial i{
-    font-size: 2.9rem;
-    color: #fca61f;
-    
-}
-.testimonial .nextprev-btn{
-    border: none;
-    background-color: #fff;
-}
-.prev:hover,.prev-btn:hover{
-    color:#6f34fe;
-    transform: translateX(-10px);
-    transition-duration: 1s;
-}
-.next:hover,.next-btn:hover{
-    color:#6f34fe;
-    transform: translateX(10px);
-    transition-duration: 1s;
-}
 
-/* blog section starts */
-.blog{
-    background-color: #f2f2ff;
-}
-.blog .blogpost .card{
-    border: none;
-    border-radius: 5%;
-}
-.nav-bg{
-    background-color: #fff;
-}
 
-.blog .blogpost small{
-    color: #6f34fe;
-    font-size: 1.1rem;
-}
-.blog .blogpost h4,.blogpost a{
-    color: #3f396d;
-    font-weight: 700;
-    margin-top: 1rem;
-    text-decoration: none;
-}
-.blogpost a:hover{
-    color: #fca61f;
-}
-.blog .blogpost .read-more-btn{
-    text-decoration: none;
-    color: #fca61f;
-    font-size: 1.1rem;
-}
-.blog .blogpost .read-more-btn:hover{
-    color: #6f34fe;
-}
-/* styling modal group  */
-.btn-c{
-    margin-left: 94%;
-    background-color: transparent;
-    border: none;
-    color: #fff;
-    font-size: 2rem;
-    margin-top: -3%;
-}
-.btn-c i{
-    color: #fca61f;
-}
-.modal-body .content span{
-    font-size: 1rem;
-}
-.modal-body .content small{
-    font-size: 1rem;
-    color: #6f34fe;
-}
 /* contact section starts */
 .contact{
     background-color: #f3f3f3;
 }
 .contact-details i{
     font-size: 1.5rem;
-    color: #fca61f;
+    color: #1f5afc;
 }
 .contact-details p{
     font-size: 1.2rem;
@@ -321,7 +244,7 @@ body{
 }
 .contact-form .form-control:focus{
     box-shadow: none;
-    border: 1px solid #fca61f;
+    border: 1px solid #1f5afc;
 }
 .contact-form .form-control{
     padding: 10px 10px;
@@ -342,7 +265,7 @@ footer .link-group a{
     margin-top: 1rem;
 }
 footer .link-group a:hover{
-    color: #fca61f;
+    color: #1f5afc;
 }
 .social-links button{
     border: none;
@@ -376,16 +299,7 @@ footer .link-group a:hover{
 }
 
 /* styling back to top button */
-#btn-back-to-top {
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    display: none;
-    font-size: 1.4rem;
-    background-color: #fca61f;
-    color: #fff;
-    animation: pulse 3s infinite;
-}
+
 body {
   overflow-x: hidden;
 }
@@ -393,7 +307,7 @@ body {
   scroll-margin-top: 100px; /* Adjust this value if needed */
 }
 .custom-navbar {
-  background-color: #3f396d;
+  background-color: #1f5afc;
 }
 .experience {
   background-color: #eaeafd; /* You can change this shade */
@@ -406,4 +320,21 @@ body {
 
 .portfolio {
   background-color: #e6f0ff; /* Light sky blue */
+}
+html {
+  scroll-padding-top: 70px;
+}
+
+.watermark {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 90px;
+  color: rgba(0, 123, 255, 0.05); /* Light blue for watermark effect */
+  font-weight: bold;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 0;
+  user-select: none;
 }
