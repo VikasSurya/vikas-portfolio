@@ -1,2 +1,1 @@
-## 🔗 Live Demo
-[Click here to view the live portfolio](https://vikassurya.github.io/vikas-portfolio/)
+[![Live Site](https://img.shields.io/badge/View%20Site-Online-brightgreen)](https://vikassurya.github.io/vikas-portfolio/)
